@@ -1,0 +1,27 @@
+#main {
+	width: 90%;
+    margin: 0 auto 12px auto;
+    background: #ececec;
+    padding: 12px;
+    border-radius: 12px;
+}
+#intro {
+	text-align: center;
+}
+footer {
+	text-align: center;
+	width: 90%;
+    margin: 0 auto 12px auto;
+    background: #ececec;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		color: #ececec;
+	}
+	#main, footer {
+		background: #3f3f3f;
+	}
+}
